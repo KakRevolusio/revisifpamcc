@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>ABM Beranda</title>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="./style.css">
+    <style>
+      .popup-card {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #f1f1f1;
+        width: 300px;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0px 0px 10px #999;
+      }
+  
+      .popup-card p {
+        margin-bottom: 20px;
+      }
+  
+      .popup-card button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      /* Tambahkan gaya berikut ke dalam file CSS Anda */
+.header-sticky {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+    </style>
+<body>
+  <!-- navbar -->
+  <header class="header-area header-sticky">
+    <nav class="navbar navbar-expand-lg bg-transparan">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./aset/logo.png" alt="" style="width: 150px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <button class="nav-link btn text-dark" onclick="window.location.href='./beranda.html'">Home</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn" onclick="window.location.href='./materi1.html'">Materi</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn" onclick="window.location.href='./bantuan.html'">Bantuan</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn" onclick="window.location.href='./diskusi.html'">Diskusi</button>
+            </li>
+            <li class="nav-item">
+              <button class="nav-link btn" onclick="window.location.href='./blog.html'">Blog</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- isi baner -->
+
+  <div class="bg" >
+    <div class="container mt-0"data-aos="fade-up">
+      <div class="row">
+        <div class="col-lg-6 align-self-center" id="isi">
+          <div class="caption header-text">
+            <h2>Bangkit Dan Kembangkan Potensimu, Belajar Online Bersama ABM</h2>
+            <div class="search-input">
+              <form id="search" action="#">
+                <input type="text" />
+                <button class="btn btn-block" role="button">Cari</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-5 offset-lg-1">
+          <div class="right-image">
+            <img src="./aset/BEBAS.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- menu pilihan -->
+  <div class="features">
+    <div class="container" >
+      <div class="row" data-aos="fade-up"
+      data-aos-duration="2000">
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="./aset/HTML.png" alt="" style="max-width: 70px;">
+              </div>
+              <h4>HTML</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="./aset/CSS.png" alt="" style="max-width: 100px;">
+              </div>
+              <h4>CSS</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="./aset/JS.png" alt="" style="max-width: 100px;">
+              </div>
+              <h4>JavaScript</h4>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a href="#">
+            <div class="item">
+              <div class="image">
+                <img src="./aset/PHP.png" alt="" style="max-width: 65px;">
+              </div>
+              <h4>PHP</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tranding -->
+  <div class="container mt-4 "data-aos="fade-up"
+  data-aos-duration="2000">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center text-light mt-4">TRANDING</h1>
+        <h3 class="text-light">Materi</h3>
+      </div>
+     
+    </div>
+
+    <div class="row">
+      
+    </div>
+    <div class="col text-end">
+        <button class="btn btn-light"><b>show all</b></button>
+      </div>
+    <div class="row mt-4">
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-footer">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/CN_Kt91GtqM" frameborder="0" allowfullscreen></iframe>
+            <span class="price text-center">top <br> 1</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Sandika Galih</h5>
+            <p class="card-text">Belajar Coding dengan cepat</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-footer">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/CN_Kt91GtqM" frameborder="0" allowfullscreen></iframe>
+            <span class="price text-center">top <br> 1</span>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Sandika Galih</h5>
+            <p class="card-text">Belajar Coding dengan cepat</p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-footer">
+            <iframe width="100%" height="200" src="https://www.youtube.com/embed/CN_Kt91GtqM" frameborder="0" allowfullscreen></iframe>
+            <span class="price text-center">top <br> 1</span>
+          </div>
+          <div class="card-body">
+           <h5 class="card-title">Sandika Galih</h5>
+            <p class="card-text">Belajar Coding dengan cepat</p>
+          </div>
+          
+        </div>
+      </div>
+      
+      </div>
+    </div>
+
+  </div>
+  <!-- dapet apa aja di amb -->
+  <div class="container bg-primary rounded mt-5 mb-5 border-light border-3 ">
+    <div class="row" data-aos="fade-up"
+    data-aos-duration="2000">
+      <div class="col-lg-12 text-center">
+        <div class="section-heading">
+          <h6 class="mt-2 text-light">ABM</h6>
+          <h2 class="md-5 text-light">Dapet Apa Aja Di ABM</h2>
+        </div>
+      </div>
+      <div class="col-lg col-sm-6 col-xs-12 mt-3 mb-5">
+        <div class="item">
+          <div class="card border-light border-3 ">
+            <div class="card-header bg-primary">
+              <h4 class="text-light text-center">Video & Soal</h4>
+            </div>
+            <div class="card-body">
+              <a href="#"><img src="./aset/2326495.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg col-sm-6 col-xs-12 mt-3 mb-5">
+        <div class="item">
+          <div class="card border-light">
+            <div class="card-header bg-primary">
+              <h4 class="text-light text-center">Live Class</h4>
+            </div>
+            <div class="card-body">
+              <a href="#"><img src="./aset/3707547.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg col-sm-6 col-xs-12 mt-3 mb-5">
+        <div class="item">
+          <div class="card border-light">
+            <div class="card-header bg-primary">
+              <h4 class="text-light text-center">E-Sertifikat</h4>
+            </div>
+            <div class="card-body">
+              <a href="#"><img src="./aset/5836.jpg" height="180" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg col-sm-6 col-xs-12 mt-3 mb-5">
+        <div class="item">
+          <div class="card border-light">
+            <div class="card-header bg-primary">
+              <h4 class="text-light text-center">Try Out</h4>
+            </div>
+            <div class="card-body">
+              <a href="#"><img src="./aset/6133956.jpg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+  
+  <!-- kata mereka  -->
+  <div class="container mt-4" data-aos="fade-up"
+  data-aos-duration="2000">
+    <h1 class="text-center text-light mt-4">Kata Mereka yang Pernah Mengikuti ABM</h1>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner mt-4">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card bg-primary border-light border-3 p-4 rounded-4">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./aset/DSC06258sdef.JPG" alt="" class="w-100 rounded-3">
+                  </div>
+                  <div class="col-8 d-flex flex-column justify-content-end">
+                    <h4 class="text-white">Panji Revo</h4>
+                    <h6 class="text-white">Informatika - Univ Mikom Jaya</h6>
+                  </div>
+                </div>
+                <div class="mt-3 mb-5">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis blanditiis perspiciatis,
+                    esse nulla eius aperiam totam laborum saepe impedit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 ">
+              <div class="card bg-primary border-light border-3 p-4 rounded-4">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./aset/DSC06258sdef.JPG" alt="" class="w-100 rounded-3">
+                  </div>
+                  <div class="col-8 d-flex flex-column justify-content-end">
+                    <h4 class="text-white">Nama Lain 1</h4>
+                    <h6 class="text-white">Jurusan Lain - Universitas Lain</h6>
+                  </div>
+                </div>
+                <div class="mt-3 mb-5">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-primary p-4  border-light border-3 rounded-4">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./aset/DSC06258sdef.JPG" alt="" class="w-100 rounded-3">
+                  </div>
+                  <div class="col-8 d-flex flex-column justify-content-end">
+                    <h4 class="text-white">Nama Lain 2</h4>
+                    <h6 class="text-white">Jurusan Lain - Universitas Lain</h6>
+                  </div>
+                </div>
+                <div class="mt-3 mb-5">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis blanditiis perspiciatis,
+                    esse nulla eius aperiam totam laborum saepe impedit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card bg-primary p-4 border-light border-3 rounded-4">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./aset/DSC06258sdef.JPG" alt="" class="w-100 rounded-3">
+                  </div>
+                  <div class="col-8 d-flex flex-column justify-content-end">
+                    <h4 class="text-white">Nama Lain 3</h4>
+                    <h6 class="text-white">Jurusan Lain - Universitas Lain</h6>
+                  </div>
+                </div>
+                <div class="mt-3 mb-5">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis blanditiis perspiciatis,
+                    esse nulla eius aperiam totam laborum saepe impedit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-primary p-4 border-light border-3 rounded-4">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./aset/DSC06258sdef.JPG" alt="" class="w-100 rounded-3">
+                  </div>
+                  <div class="col-8 d-flex flex-column justify-content-end">
+                    <h4 class="text-white">Nama Lain 4</h4>
+                    <h6 class="text-white">Jurusan Lain - Universitas Lain</h6>
+                  </div>
+                </div>
+                <div class="mt-3 mb-5">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis blanditiis perspiciatis,
+                    esse nulla eius aperiam totam laborum saepe impedit.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-primary border-light border-3 p-4 rounded-4">
+                <div class="row">
+                  <div class="col-4">
+                    <img src="./aset/DSC06258sdef.JPG" alt="" class="w-100 rounded-3">
+                  </div>
+                  <div class="col-8 d-flex flex-column justify-content-end">
+                    <h4 class="text-white">Nama Lain 5</h4>
+                    <h6 class="text-white">Jurusan Lain - Universitas Lain</h6>
+                  </div>
+                </div>
+                <div class="mt-3 mb-5">
+                  <p class="text-white">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem corporis blanditiis perspiciatis,
+                    esse nulla eius aperiam totam laborum saepe impedit.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+</div>
+<!-- foter -->
+<footer class="bg-primary text-white py-5 mt-5 " data-aos="fade-up"
+data-aos-duration="2000">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <p class="mb-0 text-light">AMCC © 2023 Final Projek Web Development. &nbsp;&nbsp; <a rel="nofollow" href="" target="_blank" class="text-white">Kelompok: AMB "(Anak Buah Mufti)"</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="beranda.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+ <script>
+  self.addEventListener('fetch', event => {
+    event.respondWith(
+      caches.match(event.request).then(response => {
+        if (response) {
+          return response; // Menggunakan respons yang telah di-cache jika tersedia
+        }
+  
+        // Jika respons tidak ada di cache, lakukan permintaan preloading
+        return fetch(event.request.clone()).then(response => {
+          // Menyimpan respons yang diunduh ke dalam cache
+          if (response && response.status === 200) {
+            const responseClone = response.clone();
+            caches.open('cacheName').then(cache => {
+              cache.put(event.request, responseClone);
+            });
+          }
+  
+          return response; // Mengembalikan respons ke klien
+        });
+      })
+    );
+  });
+  
+ </script>
+  
+  </body>
+</html>

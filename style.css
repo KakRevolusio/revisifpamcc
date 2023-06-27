@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900");
+/* ful */
+body{
+    background-image: url(./aset/banner-bg.jpg);
+}
+.clearfix {
+    display: inline-block;
+  }
+  
+  html[xmlns] .clearfix {
+    display: block;
+  }
+  
+  * html .clearfix {
+    height: 1%;
+  }
+  
+  ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  header, nav, section, article, aside, footer, hgroup {
+    display: block;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Poppins', sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  a {
+    text-decoration: none !important;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: #1e1e1e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700;
+  }
+  
+  ul {
+    margin-bottom: 0px;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #4a4a4a;
+  }
+  
+  img {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+/* navbar */
+.navbar {
+    background-color: transparent;
+  }
+
+  .navbar-brand {
+    margin-right: auto;
+  }
+
+  .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  .navbar-nav .nav-link:hover {
+   background-color: #0071f8;
+  color: #000000;
+  }
+  .header-area.scrolled .navbar {
+    background-color: #0071f8;
+  }
+
+ 
+/* bg */
+  .bg {
+    
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+  }
+  .bg .caption h2 {
+    font-size: 48px;
+    color: #fff;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 5px;
+    margin-bottom: 40px;
+  }
+  .bg  {
+    color: #fff;
+    margin-bottom: 70px;
+  }
+  
+  .bg .caption form {
+    position: relative;
+    max-width: 450px;
+  }
+  
+  .bg .caption form input {
+    max-width: 450px;
+    width: 100%;
+    height: 50px;
+    outline: none;
+    border-radius: 25px;
+    background-color: #fff;
+    border: none;
+    padding: 0px 25px;
+    font-size: 14px;
+    color: #7a7a7a;
+  }
+  
+  .bg .caption form button {
+    display: inline-block;
+    height: 50px;
+    line-height: 50px;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 0px 25px;
+    border: none;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all .3s;
+  }
+  
+  .bg .caption form button:hover {
+    background-color: #0071f8;
+  }
+  
+  .bg .right-image {
+    position: relative;
+  }
+  
+  .bg .right-image img {
+    border-radius: 25px;
+  }
+  
+  .bg .right-image span.price {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 25px;
+    background-color: #008af8;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    padding: 4px 15px;
+  }
+  
+  .bg .right-image span.offer {
+    position: absolute;
+    left: -25px;
+    bottom: -25px;
+    border-radius: 50%;
+    background-color: #ee626b;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #fff;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+  }
+  .header-area {
+    position: absolute;
+    background-color: transparent;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    -webkit-transition: all .5s ease 0s;
+    -moz-transition: all .5s ease 0s;
+    -o-transition: all .5s ease 0s;
+    transition: all .5s ease 0s;
+  }
+  /* menupilihan */
+  .features .item {
+    padding: 50px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    border-radius: 50px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .features .item h4 {
+    font-size: 17px;
+    margin-top: 2px;
+    text-transform: uppercase;
+  }
+  
+  .features .item .image {
+    width: 90px;
+    height: 90px;
+    display: inline-block;
+    text-align: center;
+    line-height: 90px;
+    background-color: #0071f8;
+    border-radius: 50%;
+    transition: all .3s;
+  }
+  
+  .features .item:hover .image {
+    background-color: #ee626b;
+  }
+
+  /* top1 */
+  .price {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    display: block;
+    position: absolute;
+  right: 20px;
+  top: 20px;
+  border-radius: 25px;
+  background-color: #008af8;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+  padding: 4px 15px;
+  }
+  /* foter */
+  footer {
+    border-radius: 50% 50% 0 0;
+    background-image: url(./aset/footer-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  footer p {
+    font-size: 16px;
+    font-weight: 400;
+  
+  }
+ 
